@@ -58,7 +58,7 @@ const TaskList = ({task,getTask}) => {
     },[priority])
 
   return (
-    <div>
+    <div className='m-2'>
      <div className='m-2 d-flex'>
      <Button className='bg-dark' onClick={()=>setShowFilter(!showFilter)}>Filter</Button>
      {showFilter && (<Form.Select aria-label="Default select example" value={priority} onChange={(e)=>setPriority(e.target.value)}>
