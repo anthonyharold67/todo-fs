@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.container {
+body {
   background-image: url("./assets/back-abstract.png");
   /* background: rgb(131,58,180);
    */
@@ -14,6 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+
   width: 500px;
   padding: 10px;
   border: 10px solid#ECAB9E;
